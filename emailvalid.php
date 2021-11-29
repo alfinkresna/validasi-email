@@ -3,7 +3,7 @@
     $curl = curl_init();
 
     $data = [
-    echo    'email' => "email",
+        'email' => "email",
     ];
 
     $post_data = http_build_query($data);
